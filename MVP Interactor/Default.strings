@@ -1,0 +1,8 @@
+/* 
+  string.strings
+  MVP Interactor
+
+  Created by Sylvia Domenech on 26/02/2019.
+  Copyright © 2019 Sylvia Callejas. All rights reserved.
+*/
+"api_error" = "Couldn't load api data";
