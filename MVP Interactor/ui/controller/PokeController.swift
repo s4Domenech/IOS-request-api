@@ -12,7 +12,7 @@ class PokeController {
     
     var pokeApi = PokeApi()
 
-    func loadPokeApi(success: @escaping(Poke) -> Void, failure: @escaping() -> Void) {
-        pokeApi.getPoke(success: success, failure: failure)
+    func loadPokeApi(poke: String, success: @escaping(Poke) -> Void, failure: @escaping() -> Void) {
+        pokeApi.getPoke(poke: poke, success: success, failure: failure)
     }
 }

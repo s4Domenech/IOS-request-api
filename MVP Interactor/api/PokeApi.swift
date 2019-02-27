@@ -11,8 +11,8 @@ import Foundation
 
 class PokeApi {
     
-    func getPoke(success: @escaping(Poke) -> Void, failure: @escaping() -> Void) {
-        let urlString = UrlApi.getPokemon(poke: "ditto")
+    func getPoke(poke: String, success: @escaping(Poke) -> Void, failure: @escaping() -> Void) {
+        let urlString = UrlApi.getPokemon(poke: poke)
         let requestUrl = URL(string:urlString)
         var request = URLRequest(url:requestUrl!)
         request.httpMethod = "GET"

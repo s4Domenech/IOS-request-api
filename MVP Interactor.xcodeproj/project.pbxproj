@@ -21,6 +21,9 @@
 		3F6413952224475C00F6986E /* PokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6413942224475C00F6986E /* PokeController.swift */; };
 		3F64139822244AAA00F6986E /* PokeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64139722244AAA00F6986E /* PokeApi.swift */; };
 		3F64139A22244DAC00F6986E /* UrlApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64139922244DAC00F6986E /* UrlApi.swift */; };
+		3FA25D0E2226841E00B85D65 /* Sprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA25D0D2226841E00B85D65 /* Sprite.swift */; };
+		3FA25D102226A30300B85D65 /* ImageApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA25D0F2226A30300B85D65 /* ImageApi.swift */; };
+		3FA25D122226A33600B85D65 /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA25D112226A33600B85D65 /* ImageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		3F6413942224475C00F6986E /* PokeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeController.swift; sourceTree = "<group>"; };
 		3F64139722244AAA00F6986E /* PokeApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeApi.swift; sourceTree = "<group>"; };
 		3F64139922244DAC00F6986E /* UrlApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlApi.swift; sourceTree = "<group>"; };
+		3FA25D0D2226841E00B85D65 /* Sprite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sprite.swift; sourceTree = "<group>"; };
+		3FA25D0F2226A30300B85D65 /* ImageApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageApi.swift; sourceTree = "<group>"; };
+		3FA25D112226A33600B85D65 /* ImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			children = (
 				3F521ABB22255F55001FCA69 /* Poke.swift */,
 				3F521ABD22255FCA001FCA69 /* Ability.swift */,
+				3FA25D0D2226841E00B85D65 /* Sprite.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -126,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				3F6413942224475C00F6986E /* PokeController.swift */,
+				3FA25D112226A33600B85D65 /* ImageController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -135,6 +143,7 @@
 			children = (
 				3F64139722244AAA00F6986E /* PokeApi.swift */,
 				3F64139922244DAC00F6986E /* UrlApi.swift */,
+				3FA25D0F2226A30300B85D65 /* ImageApi.swift */,
 			);
 			path = api;
 			sourceTree = "<group>";
@@ -213,8 +222,11 @@
 			files = (
 				3F64137B2224363800F6986E /* MainView.swift in Sources */,
 				3F641390222437E300F6986E /* BasePresenter.swift in Sources */,
+				3FA25D102226A30300B85D65 /* ImageApi.swift in Sources */,
+				3FA25D0E2226841E00B85D65 /* Sprite.swift in Sources */,
 				3F64139222243B8900F6986E /* BaseView.swift in Sources */,
 				3F64139822244AAA00F6986E /* PokeApi.swift in Sources */,
+				3FA25D122226A33600B85D65 /* ImageController.swift in Sources */,
 				3F521ABC22255F55001FCA69 /* Poke.swift in Sources */,
 				3F64139A22244DAC00F6986E /* UrlApi.swift in Sources */,
 				3F521ABE22255FCA001FCA69 /* Ability.swift in Sources */,
