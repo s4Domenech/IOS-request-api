@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F4A141E22413FC300C27EF4 /* PokeMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A141D22413FC300C27EF4 /* PokeMapper.swift */; };
+		3F4A14202241413B00C27EF4 /* AbilityMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A141F2241413B00C27EF4 /* AbilityMapper.swift */; };
+		3F4A14222241422300C27EF4 /* SpriteMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A14212241422300C27EF4 /* SpriteMapper.swift */; };
 		3F521ABC22255F55001FCA69 /* Poke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F521ABB22255F55001FCA69 /* Poke.swift */; };
 		3F521ABE22255FCA001FCA69 /* Ability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F521ABD22255FCA001FCA69 /* Ability.swift */; };
 		3F521AD322259C89001FCA69 /* Default.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F521AD222259C89001FCA69 /* Default.strings */; };
@@ -27,6 +30,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F4A141D22413FC300C27EF4 /* PokeMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeMapper.swift; sourceTree = "<group>"; };
+		3F4A141F2241413B00C27EF4 /* AbilityMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbilityMapper.swift; sourceTree = "<group>"; };
+		3F4A14212241422300C27EF4 /* SpriteMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteMapper.swift; sourceTree = "<group>"; };
 		3F521ABB22255F55001FCA69 /* Poke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poke.swift; sourceTree = "<group>"; };
 		3F521ABD22255FCA001FCA69 /* Ability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ability.swift; sourceTree = "<group>"; };
 		3F521AD222259C89001FCA69 /* Default.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Default.strings; sourceTree = "<group>"; };
@@ -59,6 +65,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F4A141C22413FA700C27EF4 /* mapper */ = {
+			isa = PBXGroup;
+			children = (
+				3F4A141D22413FC300C27EF4 /* PokeMapper.swift */,
+				3F4A141F2241413B00C27EF4 /* AbilityMapper.swift */,
+				3F4A14212241422300C27EF4 /* SpriteMapper.swift */,
+			);
+			path = mapper;
+			sourceTree = "<group>";
+		};
 		3F521ABA22255F47001FCA69 /* model */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +157,7 @@
 		3F64139622244A9500F6986E /* api */ = {
 			isa = PBXGroup;
 			children = (
+				3F4A141C22413FA700C27EF4 /* mapper */,
 				3F64139722244AAA00F6986E /* PokeApi.swift */,
 				3F64139922244DAC00F6986E /* UrlApi.swift */,
 				3FA25D0F2226A30300B85D65 /* ImageApi.swift */,
@@ -223,14 +240,17 @@
 				3F64137B2224363800F6986E /* MainView.swift in Sources */,
 				3F641390222437E300F6986E /* BasePresenter.swift in Sources */,
 				3FA25D102226A30300B85D65 /* ImageApi.swift in Sources */,
+				3F4A141E22413FC300C27EF4 /* PokeMapper.swift in Sources */,
 				3FA25D0E2226841E00B85D65 /* Sprite.swift in Sources */,
 				3F64139222243B8900F6986E /* BaseView.swift in Sources */,
 				3F64139822244AAA00F6986E /* PokeApi.swift in Sources */,
 				3FA25D122226A33600B85D65 /* ImageController.swift in Sources */,
 				3F521ABC22255F55001FCA69 /* Poke.swift in Sources */,
+				3F4A14222241422300C27EF4 /* SpriteMapper.swift in Sources */,
 				3F64139A22244DAC00F6986E /* UrlApi.swift in Sources */,
 				3F521ABE22255FCA001FCA69 /* Ability.swift in Sources */,
 				3F64138E2224378800F6986E /* MainPresenter.swift in Sources */,
+				3F4A14202241413B00C27EF4 /* AbilityMapper.swift in Sources */,
 				3F6413952224475C00F6986E /* PokeController.swift in Sources */,
 				3F6413792224363800F6986E /* AppDelegate.swift in Sources */,
 			);

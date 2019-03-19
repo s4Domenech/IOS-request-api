@@ -11,16 +11,9 @@ struct Poke {
     var abilities: [Ability]
     var sprite: Sprite
     
-    init(dictionary: [String: Any]) {
-        self.name = (dictionary["name"] as? String)!
-        
-        var abilitiesToAdd: [Ability] = []
-        if let abilities = dictionary["abilities"] as? [[String: Any]] {
-            for ability in abilities {
-                abilitiesToAdd.append(Ability(ability["ability"] as! [String: Any]))
-            }
-        }
-        self.abilities = abilitiesToAdd
-        self.sprite = Sprite(dictionary["sprites"] as! [String: Any])
+    init(_ name: String, _ abilities: [Ability], _ sprite: Sprite) {
+        self.name = name
+        self.abilities = abilities
+        self.sprite = sprite
     }
 }

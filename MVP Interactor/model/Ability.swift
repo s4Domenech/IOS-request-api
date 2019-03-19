@@ -9,7 +9,7 @@
 struct Ability {
     var name: String
     
-    init(_ dictionaryAbility: [String: Any]) {
-        self.name = dictionaryAbility["name"] as! String
+    init(_ name: String) {
+        self.name = name
     }
 }

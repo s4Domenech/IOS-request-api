@@ -27,7 +27,7 @@ class PokeApi {
             do {
                 let jsonResponse = try JSONSerialization.jsonObject(with: data!, options: [])
                 if let dictionary = jsonResponse as? [String: Any] {
-                    let poke = Poke(dictionary: dictionary)
+                    let poke = PokeMapper.map(dictionary: dictionary)
                     success(poke)
                 }
             } catch let parsingError {
